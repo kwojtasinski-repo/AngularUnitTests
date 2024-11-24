@@ -885,7 +885,7 @@ Explore these advanced testing techniques in separate guides:
     *   ➡️ See ([Wrapping Global Objects - Overview](link)) for more information on how to create and test these wrappers.
 2.  **Using Spies in Tests**:
     *   Discover advanced spy techniques (`spyOn`, `createSpyObj`) and when to use them.
-    * ➡️ See [Using Spies in Tests]([Using Spies in Tests - Overview](link)) for advanced techniques and examples.
+    * ➡️ See [Using Spies in Tests]([Using Spies in Tests - Overview](./using-spies.md)) for advanced techniques and examples.
 3.  **Recreating and Overriding Dependencies**:
     *   Understand how to override services or inject mocks into tests.
     * ➡️ See [Recreating and Overriding Dependencies]([Recreating and Overriding Dependencies - Overview](./recreating-overriding-dependencies.md)) for detailed examples and use cases.
