@@ -3,7 +3,7 @@
 **Introduction to Unit Testing in Angular with Jasmine**
 ========================================================
 
-Unit testing is a crucial practice for ensuring your Angular application behaves as expected. This tutorial provides a beginner-friendly introduction to unit testing Angular apps using **Jasmine** and **TestBed**. Before diving deeper into unit testing, it's important to have a basic understanding of **Dependency Injection (DI)** in Angular, as it is fundamental to configuring services and dependencies in your tests [Link here](url). You'll also find links to advanced topics for deeper exploration.
+Unit testing is a crucial practice for ensuring your Angular application behaves as expected. This tutorial provides a beginner-friendly introduction to unit testing Angular apps using **Jasmine** and **TestBed**. Before diving deeper into unit testing, it's important to have a basic understanding of **Dependency Injection (DI)** in Angular, as it is fundamental to configuring services and dependencies in your tests [Link here](./introduction-di-angular.md). You'll also find links to advanced topics for deeper exploration.
 
 ---
 
