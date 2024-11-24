@@ -882,7 +882,7 @@ For promises, **always use `async` and `await`** to ensure that the test waits f
 Explore these advanced testing techniques in separate guides:
 1.  **Wrapping Global Objects**:
     *   Learn how to create and test wrapper services for `window` or `document`.
-    *   ➡️ See [Wrapping Global Objects]([Modifying Component Metadata - Overview]([Wrapping Global Objects - Overview](link))) for more information on how to create and test these wrappers.
+    *   ➡️ See ([Wrapping Global Objects - Overview](link)) for more information on how to create and test these wrappers.
 2.  **Using Spies in Tests**:
     *   Discover advanced spy techniques (`spyOn`, `createSpyObj`) and when to use them.
     * ➡️ See [Using Spies in Tests]([Using Spies in Tests - Overview](link)) for advanced techniques and examples.
@@ -891,7 +891,7 @@ Explore these advanced testing techniques in separate guides:
     * ➡️ See [Recreating and Overriding Dependencies]([Recreating and Overriding Dependencies - Overview](link)) for detailed examples and use cases.
 4.  **Modifying Component Metadata**:
     *   Simplify testing by overriding component templates or metadata.
-    * ➡️ See [Modifying Component Metadata]([Modifying Component Metadata - Overview](link)) for more details.
+    * ➡️ See [Modifying Component Metadata]([Modifying Component Metadata - Overview](./modify-component-metadata-angular.md)) for more details.
 
 ---
 
