@@ -888,7 +888,7 @@ Explore these advanced testing techniques in separate guides:
     * ➡️ See [Using Spies in Tests]([Using Spies in Tests - Overview](link)) for advanced techniques and examples.
 3.  **Recreating and Overriding Dependencies**:
     *   Understand how to override services or inject mocks into tests.
-    * ➡️ See [Recreating and Overriding Dependencies]([Recreating and Overriding Dependencies - Overview](link)) for detailed examples and use cases.
+    * ➡️ See [Recreating and Overriding Dependencies]([Recreating and Overriding Dependencies - Overview](./recreating-overriding-dependencies.md)) for detailed examples and use cases.
 4.  **Modifying Component Metadata**:
     *   Simplify testing by overriding component templates or metadata.
     * ➡️ See [Modifying Component Metadata]([Modifying Component Metadata - Overview](./modify-component-metadata-angular.md)) for more details.
