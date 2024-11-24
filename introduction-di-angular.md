@@ -2,7 +2,26 @@
 
 Dependency Injection (DI) is a design pattern that Angular extensively uses to provide dependencies (services, objects, or values) to components and other parts of your application. Understanding DI is crucial for writing effective and isolated unit tests in Angular.
 
-Table of content
+- [Introduction](#introduction)
+	- [**What is Dependency Injection in Angular?**](#what-is-dependency-injection-in-angular)
+		- [**How Angular Handles DI**](#how-angular-handles-di)
+			- [**Example of DI in Angular**](#example-of-di-in-angular)
+	- [**Injection via Constructors vs. Functions (`inject`)**](#injection-via-constructors-vs-functions-inject)
+	- [**Tokens in Dependency Injection**](#tokens-in-dependency-injection)
+	- [**How Providers Work**](#how-providers-work)
+		- [**Types of Providers**](#types-of-providers)
+		- [**How Providers Work Outside Unit Tests**](#how-providers-work-outside-unit-tests)
+	- [**Dependency Injection (DI) in Unit Testing**](#dependency-injection-di-in-unit-testing)
+	- [**Inject vs. TestBed.inject**](#inject-vs-testbedinject)
+	- [**Setting Up DI in Tests**](#setting-up-di-in-tests)
+		- [**Example: Setting Up DI for a Component Test**](#example-setting-up-di-for-a-component-test)
+				- [**Original Implementation**](#original-implementation)
+			- [**Testing the Component with DI**](#testing-the-component-with-di)
+	- [**Modern Usage with the `inject` Function**](#modern-usage-with-the-inject-function)
+			- [Example of `inject` in Tests:](#example-of-inject-in-tests)
+	- [**Conclusion**](#conclusion)
+		- [**Key Takeaways**](#key-takeaways)
+
 
 
 * * *
