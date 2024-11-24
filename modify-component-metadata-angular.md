@@ -1,4 +1,18 @@
-Table of content
+- [Modifying Component Metadata in Angular Testing](#modifying-component-metadata-in-angular-testing)
+- [Why Modify Component Metadata?](#why-modify-component-metadata)
+- [Examples of Modifying Component Metadata in Tests](#examples-of-modifying-component-metadata-in-tests)
+  - [1. **Override the Component Template**](#1-override-the-component-template)
+  - [2. **Override Component Styles**](#2-override-component-styles)
+  - [3. **Override Providers (Mocking Services)**](#3-override-providers-mocking-services)
+  - [4. **Override Input Properties**](#4-override-input-properties)
+  - [5. **Replacing Template and Providers Together**](#5-replacing-template-and-providers-together)
+  - [6. **Modifying Providers or Metadata for Specific Tests**](#6-modifying-providers-or-metadata-for-specific-tests)
+    - [**Explanation**:](#explanation)
+  - [7. **Resetting the `TestBed` for Specific Tests**](#7-resetting-the-testbed-for-specific-tests)
+    - [**Explanation**:](#explanation-1)
+- [Why and When to Modify Component Metadata?](#why-and-when-to-modify-component-metadata)
+- [Conclusion](#conclusion)
+
 
 
 # Modifying Component Metadata in Angular Testing
