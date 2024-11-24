@@ -882,7 +882,7 @@ For promises, **always use `async` and `await`** to ensure that the test waits f
 Explore these advanced testing techniques in separate guides:
 1.  **Wrapping Global Objects**:
     *   Learn how to create and test wrapper services for `window` or `document`.
-    *   ➡️ See ([Wrapping Global Objects - Overview](link)) for more information on how to create and test these wrappers.
+    *   ➡️ See ([Wrapping Global Objects - Overview](./wrapping-global-objects.md)) for more information on how to create and test these wrappers.
 2.  **Using Spies in Tests**:
     *   Discover advanced spy techniques (`spyOn`, `createSpyObj`) and when to use them.
     * ➡️ See [Using Spies in Tests]([Using Spies in Tests - Overview](./using-spies.md)) for advanced techniques and examples.
