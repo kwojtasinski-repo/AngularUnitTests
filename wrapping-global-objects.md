@@ -1,15 +1,15 @@
 - [Wrapping Global Objects in Angular Unit Tests with Jasmine](#wrapping-global-objects-in-angular-unit-tests-with-jasmine)
 - [Why Use Global Object Wrapping?](#why-use-global-object-wrapping)
 - [Example 1: Wrapping the `window` Object](#example-1-wrapping-the-window-object)
-	- [Step 1: Create a Window Wrapper Service](#step-1-create-a-window-wrapper-service)
-	- [Step 2: Inject and Use the Service in a Component](#step-2-inject-and-use-the-service-in-a-component)
-	- [Step 3: Test the Component with Jasmine and Spies](#step-3-test-the-component-with-jasmine-and-spies)
-		- [Explanation:](#explanation)
+  - [Step 1: Create a Window Wrapper Service](#step-1-create-a-window-wrapper-service)
+  - [Step 2: Inject and Use the Service in a Component](#step-2-inject-and-use-the-service-in-a-component)
+  - [Step 3: Test the Component with Jasmine and Spies](#step-3-test-the-component-with-jasmine-and-spies)
+    - [Explanation:](#explanation)
 - [Example 2: Wrapping `localStorage`](#example-2-wrapping-localstorage)
-	- [Step 1: Create a LocalStorage Wrapper Service](#step-1-create-a-localstorage-wrapper-service)
-	- [Step 2: Use the Service in a Component](#step-2-use-the-service-in-a-component)
-	- [Step 3: Write Unit Tests with Jasmine](#step-3-write-unit-tests-with-jasmine)
-		- [Explanation:](#explanation-1)
+  - [Step 1: Create a LocalStorage Wrapper Service](#step-1-create-a-localstorage-wrapper-service)
+  - [Step 2: Use the Service in a Component](#step-2-use-the-service-in-a-component)
+  - [Step 3: Write Unit Tests with Jasmine](#step-3-write-unit-tests-with-jasmine)
+    - [Explanation:](#explanation-1)
 
 
 
