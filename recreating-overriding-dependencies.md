@@ -1,4 +1,20 @@
-Table of content
+- [Introduction:](#introduction)
+    - [Key Approaches](#key-approaches)
+- [1. **Recreating Dependencies**](#1-recreating-dependencies)
+    - [Example: Recreating a Service Dependency for Each Test](#example-recreating-a-service-dependency-for-each-test)
+    - [**Explanation**:](#explanation)
+- [2. **Overriding Dependencies (Mocking)**](#2-overriding-dependencies-mocking)
+    - [Example: Overriding a Service with a Mock](#example-overriding-a-service-with-a-mock)
+    - [**Explanation:**](#explanation-1)
+- [3. **Overriding Services with `TestBed.overrideProvider()`**](#3-overriding-services-with-testbedoverrideprovider)
+    - [Example: Dynamically Overriding a Provider](#example-dynamically-overriding-a-provider)
+    - [**Explanation:**](#explanation-2)
+- [4. **Recreating and Overriding Multiple Dependencies**](#4-recreating-and-overriding-multiple-dependencies)
+    - [Example: Overriding Multiple Dependencies](#example-overriding-multiple-dependencies)
+    - [**Explanation:**](#explanation-3)
+- [Summary of Key Concepts:](#summary-of-key-concepts)
+
+---
 
 # Introduction:
 
