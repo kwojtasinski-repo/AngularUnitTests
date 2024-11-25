@@ -13,7 +13,7 @@
 - [Why and When to Modify Component Metadata?](#why-and-when-to-modify-component-metadata)
 - [Conclusion](#conclusion)
 
-
+---
 
 # Modifying Component Metadata in Angular Testing
 

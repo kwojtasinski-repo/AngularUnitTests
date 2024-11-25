@@ -11,7 +11,7 @@
   - [Step 3: Write Unit Tests with Jasmine](#step-3-write-unit-tests-with-jasmine)
     - [Explanation:](#explanation-1)
 
-
+---
 
 # Wrapping Global Objects in Angular Unit Tests with Jasmine
 
