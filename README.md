@@ -119,20 +119,27 @@ Angular testing relies on **TestBed**, **Dependency Injection**, and **mocking**
 
 ### Core Concepts:
 
-1.  **TestBed**: Configures and initializes the testing environment.
-2.  **Dependency Injection**: Explicitly provide dependencies (e.g., services) to components.
-3.  **Mocking**: Replace real implementations with controlled, test-specific versions.
+1.  **TestBed**:  
+    Configures and initializes the testing environment. TestBed handles:
+    *   **Module-level Dependency Injection**: Registers services, components, and other providers.
+    *   **Lifecycle Methods**: Provides hooks for asynchronous operations like `compileComponents()`. This step is essential when components use templates, directives, or dynamic content.
+2.  **Dependency Injection**:  
+    Explicitly provide dependencies (e.g., services) to components. Use `TestBed.inject()` to retrieve services or dependencies. This enables better control and isolation during tests.
+3.  **Mocking**:  
+    Replace real implementations with controlled, test-specific versions. Use Jasmine spies, stubs, or libraries (like `jasmine-marbles`) for mocking Observables and services.
 
 ### Testing Workflow:
 
 1.  **Setup**:
-    *   Use `TestBed` to configure a testing module, declaring all required components, imports, and providers.
+    Use TestBed to configure a testing module, declaring all required components, imports, and providers.
+    *   If the component has a template or depends on directives, pipes, or dynamic content, include `compileComponents()` to compile templates and resolve dependencies properly:
+    *   Use `NO_ERRORS_SCHEMA` cautiously if ignoring unknown elements is acceptable, but ensure this does not hide real template issues.
 2.  **Create Component/Service**:
-    *   Instantiate the component or service under test using `TestBed`.
+    Instantiate the component or service under test using TestBed. For components, use `TestBed.createComponent()` to get the component instance and access its DOM through `fixture.debugElement`.
 3.  **Test**:
-    *   Write `describe` blocks for grouping tests and `it` blocks for individual test cases.
+    Write `describe` blocks for grouping tests and `it` blocks for individual test cases. Ensure you use `fixture.detectChanges()` to trigger Angular’s change detection whenever DOM updates are required.
 4.  **Assertions**:
-    *   Validate the results using Jasmine’s matchers.
+    Validate the results using Jasmine’s matchers (`expect`, `toBe`, `toEqual`, etc.). Ensure proper handling of asynchronous operations with Angular’s `fakeAsync` or `async` utilities for tests involving Promises or Observables.
 
 ----
 
@@ -727,7 +734,6 @@ module.exports = function (config) {
 | **Firefox** | `karma-firefox-launcher` | Runs tests in Mozilla Firefox. |
 | **Edge** | `karma-edge-launcher` | Runs tests in Microsoft Edge. |
 | **Safari** | `karma-safari-launcher` | Runs tests in Safari (macOS only). |
-| **PhantomJS** | `karma-phantomjs-launcher` | Runs tests in a headless browser. (deprecated) |
 
 ### 4. **Switching Between Browsers**
 
